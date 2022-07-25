@@ -1,6 +1,17 @@
 li{
-    color: aqua;
+    color: #0000FF;
+}
+h4{
+    color:#FFFFFF;
 }
 h2{
     color:#FF0000;
+    border: 2px;
+    border-style: solid;
+    border-color: #55AAFF;
+}
+body{
+    background-image: url("https://images.alphacoders.com/805/thumb-1920-805180.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
