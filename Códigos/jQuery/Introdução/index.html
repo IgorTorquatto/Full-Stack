@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="teste"></p>  
+    <script src="../jQuery Compressed/jquery-3.6.0.min.js"></script>
+    <!--Usando o JS sem o jQuery:-->
+    <script>
+        document.getElementById("teste").innerHTML="teste"
+    </script>
+    <!--Usando o JS com o jQuery:-->
+    <script>
+        $("#teste").html("teste")
+    </script>
+</body>
+</html>
